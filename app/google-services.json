@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "236934268157",
+    "project_id": "unifiesta-d000d",
+    "storage_bucket": "unifiesta-d000d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:236934268157:android:a87754c41094dabd26ea94",
+        "android_client_info": {
+          "package_name": "com.example.unifiesta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "236934268157-0pbs8es3ldo42k1nb5ahv93v47poip04.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDQfx-nBslIXcyD6TBzendC8SHjTwdmKk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "236934268157-0pbs8es3ldo42k1nb5ahv93v47poip04.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

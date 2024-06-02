@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/profilelayout"
+        android:paddingTop="40dp">
+
+        <ImageButton
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:src="@drawable/arrowleft"
+            android:background="@color/Unifiesta"
+            android:paddingTop="30dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="10dp">
+        </ImageButton>
+
+        <TextView
+            android:id="@+id/profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:paddingEnd="40dp"
+            android:text="Profile"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            tools:ignore="RtlSymmetry" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription=""
+            android:src="@drawable/arrowleft">
+
+        </ImageButton>
+
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/profileImage"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/profilelayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="30dp"
+        android:contentDescription="profile"
+        android:src="@drawable/baseline_person_24" />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profileImage"
+        android:layout_centerHorizontal="true"
+        android:text="User"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:layout_marginBottom="30dp"/>
+
+
+
+    <TextView
+        android:id="@+id/tvSellTickets"
+        android:layout_width="289dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/username"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn_background"
+        android:clickable="true"
+        android:drawableLeft="@drawable/baseline_sell_24"
+        android:drawableRight="@drawable/arrowright"
+        android:drawablePadding="10dp"
+        android:focusable="true"
+        android:onClick="onManageProfileClick"
+        android:padding="16dp"
+        android:text="Sell Tickets"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/InviteFriends"
+        android:layout_width="289dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvSellTickets"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn_background"
+        android:layout_marginTop="10dp"
+        android:clickable="true"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:drawableRight="@drawable/arrowright"
+        android:drawablePadding="10dp"
+        android:focusable="true"
+        android:onClick="onManageProfileClick"
+        android:padding="16dp"
+        android:text="Invite Friends"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/Logout"
+        android:layout_width="289dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/InviteFriends"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn_background"
+        android:clickable="true"
+        android:drawableLeft="@drawable/baseline_logout_24"
+        android:drawableRight="@drawable/arrowright"
+        android:drawablePadding="10dp"
+        android:focusable="true"
+        android:onClick="onManageProfileClick"
+        android:padding="16dp"
+        android:text="Logout"
+        android:textColor="#FFFFFF"
+
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/About"
+        android:layout_width="289dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Logout"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn_background"
+        android:clickable="true"
+        android:drawableLeft="@drawable/about"
+        android:drawableRight="@drawable/arrowright"
+        android:drawablePadding="10dp"
+        android:focusable="true"
+        android:onClick="onManageProfileClick"
+        android:padding="16dp"
+        android:text="About"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"/>
+
+
+
+
+</RelativeLayout>

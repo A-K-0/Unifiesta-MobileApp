@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Unifiesta</string>
+    <string name="client_id" translatable="false">236934268157-0pbs8es3ldo42k1nb5ahv93v47poip04.apps.googleusercontent.com</string>
+    <string name="dashboard_title">Dashboard</string>
+    <string name="dashboard_heading">Find Amazing events happening around you.</string>
+    <string name="dashboard_sub_title">480 events around you</string>
+    <string name="search_bar_hint">search for an event...</string>
+    <string name="dummy_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Accumsan in nisl nisi scelerisque eu. Semper feugiat nibh sed pulvinar proin gravida. Quisque sagittis purus sit amet. Faucibus turpis in eu mi bibendum. Quisque egestas diam in arcu cursus euismod quis viverra. Dictumst quisque sagittis purus sit amet volutpat consequat. Tristique risus nec feugiat in. Nunc id cursus metus aliquam. Fames ac turpis egestas maecenas pharetra convallis posuere morbi leo. Leo integer malesuada nunc vel. Ac feugiat sed lectus vestibulum mattis ullamcorper velit. Pulvinar etiam non quam lacus suspendisse faucibus. Donec pretium vulputate sapien nec sagittis aliquam malesuada bibendum. Montes nascetur ridiculus mus mauris vitae ultricies leo integer malesuada. Vehicula ipsum a arcu cursus vitae congue. Ultrices dui sapien eget mi proin sed libero enim. Fermentum iaculis eu non diam phasellus. Vitae semper quis lectus nulla. Eget aliquet nibh praesent tristique magna sit amet purus.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="UNIFIESTA">Unifesta is a mobile application designed to revolutionize event management within universities, empowering student groups, sports organizations, and event organizers to create a more vibrant and engaged campus community. We are passionate about fostering a dynamic learning environment where students can connect, participate in enriching activities, and contribute to a thriving campus life.Unifesta is a mobile application designed to revolutionize event management within universities, empowering student groups, sports organizations, and event organizers to create a more vibrant and engaged campus community.</string>
+    <string-array name="languages">
+        <item>Sports</item>
+        <item>Event</item>
+    </string-array>
+</resources>

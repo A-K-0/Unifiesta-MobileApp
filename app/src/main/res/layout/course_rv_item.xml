@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="@color/black"
+    android:elevation="8dp"
+    app:cardCornerRadius="4dp">
+
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/card_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="230dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/dj_image" />
+
+                <TextView
+                    android:id="@+id/idTVCourseName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:text="Dj Party"
+                    android:textColor="@color/white"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/idTVCourseDuration"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|bottom"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="200dp"
+                    android:alpha="0"
+                    android:text="Dj Party"
+                    android:textColor="@color/white"
+                    android:textSize="2sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/idTVCourseTracks"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|right"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:text="Dj Party"
+                    android:drawableLeft="@drawable/ic_baseline_location_on_24"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                                android:id="@+id/idTVCourseDescription"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="25"
+                                android:alpha="0"
+                                android:gravity="center"
+                                android:textAlignment="center"
+                                android:textColor="@color/textBlue"
+                                android:textSize="2sp"
+                                android:textStyle="bold" />
+
+            </FrameLayout>
+        </androidx.cardview.widget.CardView>
+
